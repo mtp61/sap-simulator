@@ -1,0 +1,15 @@
+{
+    "pets": {
+        "triggers": [
+            "FAINT", "SELL", "LEVEL", "START_OF_BATTLE", "BUY", "FRIEND_SUMMONED", "FRIEND_SOLD", "BEFORE_FAINT", "START_OF_TURN", "HURT", "BEFORE_ATTACK", "SHOP_FOOD_EATEN", "FRIEND_AHEAD_ATTACKS", "FRIEND_AHEAD_FAINTS", "END_OF_TURN", "EATS_SHOP_FOOD"
+        ],
+        "types": [
+            "GIVE_STATS", "COPY_HEALTHIEST_HEALTH"
+        ]
+    },
+    "foods": {
+        "types": [
+            "GIVE_STATS", "GIVE_STATS_TEMP"
+        ]
+    }
+}

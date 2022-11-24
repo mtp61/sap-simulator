@@ -1,0 +1,70 @@
+[
+    {
+        "name": "ant",
+        "tier": 1,
+        "attack": 2,
+        "health": 1,
+        "ability": {
+            "trigger": "FAINT",
+            "effect": {
+                "type": "GIVE_STATS",
+                "data": [
+                    [2, 1],
+                    [4, 2],
+                    [6, 3]
+                ]
+            }
+        }
+    },
+    {
+        "name": "beaver",
+        "tier": 1,
+        "attack": 3,
+        "health": 2,
+        "ability": {
+            "trigger": "SELL",
+            "effect": {
+                "type": "GIVE_STATS",
+                "data": [
+                    [0, 1, 0, 1],
+                    [0, 2, 0, 2],
+                    [0, 3, 0, 3]
+                ]
+            }
+        }
+    },
+    {
+        "name": "crab",
+        "tier": 2,
+        "attack": 3,
+        "health": 1,
+        "ability": {
+            "trigger": "END_OF_TURN",
+            "effect": {
+                "type": "COPY_HEALTHIEST_HEALTH",
+                "data": [
+                    [0.5],
+                    [1.0],
+                    [1.5]
+                ]
+            }
+        }
+    },
+    {
+        "name": "dodo",
+        "tier": 2,
+        "attack": 2,
+        "health": 3,
+        "ability": {
+            "trigger": "START_OF_BATTLE",
+            "effect": {
+                "type": "GIVE_ATTACK_AHEAD",
+                "data": [
+                    [0.5],
+                    [1.0],
+                    [1.5]
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "test": {
+        "pets": [
+            "ant", "beaver",
+            "crab", "dodo"
+        ],
+        "foods": [
+            "apple",
+            "cupcake"
+        ]
+    },
+    "standard": {
+        "pets": [
+            "ant", "beaver", "cricket", "duck", "fish", "horse", "mosquito", "otter", "pig",
+            "crab", "dodo", "elephant", "flamingo", "hedgehog", "peacock", "rat", "shrimp", "spider", "swan",
+            "badger", "blowfish", "camel", "dog", "dolphin", "giraffe", "kangaroo", "ox", "rabbit", "sheep", "snail",
+            "skunk", "turtle", "squirrel", "deer", "worm", "bison", "rooster", "whale", "penguin", "hippo", "parrot",
+            "scorpion", "rhino", "seal", "cow", "monkey", "shark", "turkey", "crocodile",
+            "dragon", "leopard", "mammoth", "gorilla", "boar", "tiger", "snake", "fly", "cat"
+        ],
+        "foods": [
+            "apple", "honey",
+            "pill", "cupcake", "meat",
+            "salad", "garlic",
+            "can", "pear",
+            "chili", "chocolate", "sushi",
+            "pizza", "mushroom", "steak", "melon"
+        ]
+    }
+}
